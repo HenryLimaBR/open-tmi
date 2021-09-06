@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-import { TwitchChannelChatters } from '../../typings/api'
+import { TwitchChannelChatters } from '../../types/api'
 import axios from 'axios'
 
 async function chatters(req: NextApiRequest, res: NextApiResponse<TwitchChannelChatters | {}>) {
